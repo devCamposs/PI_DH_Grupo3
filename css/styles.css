@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap"); */
+
+/* paleta de cores do projeto
+#e7dfd8
+#c79b69
+black
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+
+}
+.cabecalho {
+   /* max-width: 100%;
+   max-height: 100%;  */
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+header {
+  background-color: #e7dfd8;
+  /* min-height: 150px; */
+  /* text-align: left; */
+}
+
+.lupa-carrinho {
+  display: flex;
+  justify-content: flex-end;
+  align-self: flex-end;
+}
+
+nav {
+  background-color: #c79b69;
+  height: 30px;
+  width: 100%;
+  margin-top: 0;
+  font-size: 20px;
+  text-align: center;
+  text-shadow: black -1px 0;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  justify-content: space-around;
+}
+
+header > .img-lupa-carrinho {
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav > 
+.home,
+.shop,
+.music,
+.area-do-cliente {
+  text-decoration: none;
+  color: black;
+}
+
+main {
+  background-color: black;
+}
+
+footer {
+  background-color:#c79b69;
+  min-height: 150px;
+  list-style: none;
+  text-shadow: black -1px 0;
+  height: 30px;
+  width: 100%;
+  margin-top: 0;
+  padding-top: 50px;
+  font-size: 25px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  justify-content: space-around;
+}
+
+.contato, .follow-us, .localizacao{
+list-style: none;
+padding: 10px;
+color: black;
+}
+.phone, .email{
+    font-size: 20px;
+    color: white;
+    text-shadow: none;
+   
+}
