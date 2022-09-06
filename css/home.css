@@ -38,3 +38,45 @@ background: #e7dfd8;
     font-size: larger;
     font-weight: bold;
 }
+
+/*Shop dropdown*/ 
+.dropdown + shop:focus,
+.link:hover{
+  color: black;
+  
+}
+  .dropdown {
+    position: relative;
+    
+  }
+  .dropdown-menu{
+    position: absolute;
+    left: 0;
+    top: calc(100% + .25ren);
+    background-color: #c79b69;
+    padding: .75ren;
+    border-radius: .25ren;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .1);
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(-10px);
+    transition: opacity 150ms ease-in-out, transform 150ms ease-in-out;
+    
+  }
+
+  .dropdown > .shop:focus + .dropdown-menu{
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+    
+  }
+ 
+  .button{
+    color: black;
+    font-family:'Roboto', sans-serif ;
+    background: none;
+    border: none;
+    text-shadow: black -1px 0;
+    font-size: 20px;
+
+  }
