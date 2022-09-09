@@ -43,6 +43,7 @@ background: #e7dfd8;
 .dropdown + shop:focus,
 .link:hover{
   color: black;
+
   
 }
   .dropdown {
@@ -51,19 +52,28 @@ background: #e7dfd8;
   }
   .dropdown-menu{
     position: absolute;
-    left: 0;
+    left: -15px;
     top: calc(100% + .25ren);
     background-color: #c79b69;
     padding: .75ren;
     border-radius: .25ren;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .1);
     opacity: 0;
-    pointer-events: none;
+    /* pointer-events: none; */
     transform: translateY(-10px);
     transition: opacity 150ms ease-in-out, transform 150ms ease-in-out;
-    
   }
 
+.lista-dropdown{
+  padding: 15px;
+  list-style: none;
+  text-align: left;
+
+}
+
+.lista-dropdown li{
+  margin-bottom: 10px;
+}
   .dropdown > .shop:focus + .dropdown-menu{
     opacity: 1;
     transform: translateY(0);
