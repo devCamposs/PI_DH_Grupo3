@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./css/home.css">
   <link rel="stylesheet" href="./css/styles.css">
+  <script src="./scripts/carousel.js"></script>
   <title>Jazz Bass</title>
 </head>
 <body>
@@ -18,7 +19,7 @@
   <nav>
     <a class="home" href="./index.html">Home</a>
     <div class="dropdown">
-      <button class="shop button" >shop</button>
+      <button class="shop button" >Shop</button>
       <div class="dropdown-menu">
         dropdown content
       </div>
@@ -28,8 +29,10 @@
     <span class="gm-retractor"></span>
   </nav>
   <main>
-    <img class="baixo-hofner" >
-    <img src="./img/carouselHomeBaixo1.jpg" alt="baixo hofner">
+    <div class="carousel">
+     <img id="bass" class="baixo-hofner"src="./img/carouselHomeBaixo1.jpg" alt="baixo hofner">
+     <button onclick="button()">Teste</button>
+    </div>
   </main>
   <footer class="footer">
     <ul>
