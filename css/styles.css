@@ -34,7 +34,7 @@ header {
   align-self: flex-end;
 }
 
-nav {
+/* nav {
   background-color: #c79b69;
   height: 30px;
   width: 100%;
@@ -44,21 +44,12 @@ nav {
   text-shadow: black -1px 0;
   font-family: 'Roboto', sans-serif;
   display: flex;
-  justify-content: space-around;
-}
+  justify-content: space-around; */
+/* } */
 
 header > .img-lupa-carrinho {
   display: flex;
   justify-content: flex-end;
-}
-
-nav > 
-.home,
-.shop,
-.music,
-.area-do-cliente {
-  text-decoration: none;
-  color: black;
 }
 
 main {
