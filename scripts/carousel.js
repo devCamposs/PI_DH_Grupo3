@@ -5,7 +5,7 @@ var intervalId = window.setInterval(function(){
     changeImg();
   }, 3000);
 
-const carousel = ["./img/carouselHomeBaixo1.jpg", "./img/carouselHomeBaixo2.png", "./img/carouselHomeBaixo3.png"];
+const carousel = ["./img/carouselHomeBaixo1.jpg", "./img/carouselHomeBaixo4.png", "./img/carouselHomeBaixo3.png"];
 let index = 0;
 
 changeImg = () => {
