@@ -1,56 +1,56 @@
-/*let button = window.document.getElementById("search");
+// let button = window.document.getElementById("search");
 
-//As DUAS forma de registrar um EVENTO utilizado pelo livro do Rinoceronte para demonstrar.
+// //As DUAS forma de registrar um EVENTO utilizado pelo livro do Rinoceronte para demonstrar.
 
-button.addEventListener("click", function() {
-    alert('Continuar comprando.');
-    //button.onclick = function() { alert('Continuar comprando')};
-});
-
-
-let itemDoCarrinho = window.document.getElementById("listaDoCarrinho");
-
-itemDoCarrinho.addEventListener("click", function() {
-    alert('Item adicionado ao carrinho.');
-});
+// button.addEventListener("click", function() {
+//     alert('Continuar comprando.');
+//     //button.onclick = function() { alert('Continuar comprando')};
+// });
 
 
-let addAoCarrinho = window.document.getElementById('addItem');
-//let addAoCarrinho = window.document.getElementsByName("addItem")[0];
-//let addAoCarrinho = window.document.querySelector('span>button');
+// let itemDoCarrinho = window.document.getElementById("listaDoCarrinho");
 
-addAoCarrinho.addEventListener("click", function() {
-    alert('É quase seu!');
-});
+// itemDoCarrinho.addEventListener("click", function() {
+//     alert('Item adicionado ao carrinho.');
+// });
 
-let addAoCarrinho1 = window.document.getElementById('addItem1');
 
-addAoCarrinho1.addEventListener("click", function() {
-    alert('É quase seu!');
-});
+// let addAoCarrinho = window.document.getElementById('addItem');
+// //let addAoCarrinho = window.document.getElementsByName("addItem")[0];
+// //let addAoCarrinho = window.document.querySelector('span>button');
 
-let addAoCarrinho2 = window.document.getElementById('addItem2');
+// addAoCarrinho.addEventListener("click", function() {
+//     alert('É quase seu!');
+// });
 
-addAoCarrinho2.addEventListener("click", function() {
-    alert('É quase seu!');
-});
+// let addAoCarrinho1 = window.document.getElementById('addItem1');
 
-let addAoCarrinho3 = window.document.getElementById('addItem3');
+// addAoCarrinho1.addEventListener("click", function() {
+//     alert('É quase seu!');
+// });
 
-addAoCarrinho3.addEventListener("click", function() {
-    alert('É quase seu!');
-});
+// let addAoCarrinho2 = window.document.getElementById('addItem2');
 
-let addAoCarrinho4 = window.document.getElementById('addItem4');
+// addAoCarrinho2.addEventListener("click", function() {
+//     alert('É quase seu!');
+// });
 
-addAoCarrinho4.addEventListener("click", function() {
-    alert('É quase seu!');
-});
+// let addAoCarrinho3 = window.document.getElementById('addItem3');
 
-let addAoCarrinho5 = window.document.getElementById('addItem5');
+// addAoCarrinho3.addEventListener("click", function() {
+//     alert('É quase seu!');
+// });
 
-addAoCarrinho5.addEventListener("click", function() {
-    alert('É quase seu!');
-});
+// let addAoCarrinho4 = window.document.getElementById('addItem4');
 
-//imagem.addEventListener('mouseover', function() {}) */
+// addAoCarrinho4.addEventListener("click", function() {
+//     alert('É quase seu!');
+// });
+
+// let addAoCarrinho5 = window.document.getElementById('addItem5');
+
+// addAoCarrinho5.addEventListener("click", function() {
+//     alert('É quase seu!');
+// });
+
+// //imagem.addEventListener('mouseover', function() {})

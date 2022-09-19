@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 .login-content{
     display: flex;
     justify-content: center;
@@ -9,8 +11,9 @@
     align-items: center;
     padding-top: 70px;
 }
+
 .formulario-login{
-    height: 300px;
+    height: 500px;
     width: 100%;
     display: flex;
     align-items: center;
@@ -18,23 +21,24 @@
     font-family: 'Roboto', sans-serif;
     text-align: center;
     color:#e7dfd8;
-    margin-top: 30px;
-
+    margin-top: 0px;
 }
 
 .formulario-login-content{
     width: 30%;
     margin-top: 0;
+    
 }
 .datas-container{
     display: flex;
     flex-direction: column;
     margin: 10px;
     margin-top: 0;
+    
 }
 .botao-entrar{
     margin: 10px;
-
+    
 }
 #email, #senha{
     text-align: initial;
@@ -51,4 +55,28 @@
     text-decoration: none;
     color:#e7dfd8;
 
+}
+.checkbox{
+    text-align: start;
+}
+.botao-entrar {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    margin-top: 0;
+}
+.newsletter-container{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin: 10px;
+    margin-top: 0;
+}
+#nome{
+    text-align: left;
+    margin-top: 10px;
+}
+span .preencha-text{
+
+  
 }
