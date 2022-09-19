@@ -84,6 +84,16 @@ main {
   
 }
 
+.baixos{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.baixos >*{
+  flex-grow: 1 0 calc(45% -10px);
+  margin: calc(15% * (1/3) - 10px - 1px) /*calculou a margem de cada item 15% * 1/3 - 11 px, quie fez separar 3 em cada linha*/
+}
+
 footer {
   background-color:#c79b69;
   min-height: 250px;
@@ -121,6 +131,9 @@ margin-left: 10px;
 .icone {
   color: rgba(0, 0, 0, 0.616);
   
+}
+.bi{
+  color: black;
 }
 
 
