@@ -149,3 +149,27 @@ margin-left: 10px;
   align-items: center;
   justify-content: center;
 }
+
+.tittle-sobrenos{
+  padding: 20px;
+  color:#c79b69;
+
+}
+.descricao{
+  text-align: center;
+  color: #c79b69;
+  padding: 60px;
+  font-size: x-large;
+  margin: 0;
+  margin-top: 0;
+}
+.img-sobrenos{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+:hover > .img-sobrenos {
+  transform: translate(-15px, -15px);
+  transition: .5s cubic-bezier(.5,.03,.41,1);
+}
+
