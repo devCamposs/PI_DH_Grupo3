@@ -4,5 +4,18 @@ const path = require('path')
 
 app.set('view engine', 'ejs')
 
-app.use(express.static(path.join(__dirname)))
-app.listen(3000, ()=> {console.log('Servidor rodando na porta 3000')})
+const routerIndex = require('./routes/index')
+const routerSobrenos = require('./routes/sobrenos')
+const routerCarrinho = require('./routes/carrinho')
+const routerCadastro = require('./routes/cadastro')
+const routerAreadocliente = require('./routes/areadocliente')
+
+
+app.use('/', routerIndex)
+app.use('/sobrenos', routerSobrenos)
+app.use('/carrinho', routerCarrinho )
+app.use('/cadastro', routerCadastro)
+app.use('/areadoclientelogin', routerAreadocliente)
+
+app.use(express.static(path.join(__dirname, 'public'))) 
+app.listen(3000, ()=> {console.log('Na porta 3000')})

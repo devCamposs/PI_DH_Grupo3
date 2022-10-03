@@ -1,4 +1,3 @@
-
 var intervalId = window.setInterval(function(){
     changeImg();
   }, 3000);
@@ -12,3 +11,4 @@ changeImg = () => {
     document.getElementById("bass").src = carousel[index];
     index++;
 };
+

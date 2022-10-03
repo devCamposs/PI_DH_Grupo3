@@ -8,3 +8,4 @@ btn.addEventListener('click', () =>{
         search.style.display = 'block'
     }
 })
+
