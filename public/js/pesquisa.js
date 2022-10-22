@@ -22,3 +22,8 @@ function on() {
         on();
     }
   } 
+
+  function modifyImg(img){
+    let imgInstr = document.getElementById("imgInstr");
+    imgInstr.src = img
+}

@@ -7,16 +7,23 @@
     <section class="produtos">
         <div id="products" class="baixos">
 
-          <% produtos.forEach(function(m) { %>
-       
+          <% produtos.forEach(function(prod) { %>
+          
             <div class="instrumentos">
-            <h4><%= m.name %></h4> 
-            <img src="<%= m.colors[0].img %>">
-            <p class="ps-text-grey">
-            <%= m.descricao %> <%= m.preco %>
-            </p>
-            </div>
-            <%}) %>
+            
+            <h2><%= prod.modelo %></h2>
+            <h4><%= prod.descricao %> </h4>
+            <h4><%= prod.preco %></h4> 
+            <img id="imgInstr" src="<%= prod.cores[0].img %>">
+
+            <% prod.cores.forEach(function(m) { %>
+            
+              <input type="button" id="btnColor" class="btnColors" style='background-color: <%= m.cor %>' onmouseover='modifyImg("<%= m.img %>")'>
+             
+              <% }) %> 
+              </div>
+              <% }) %>
+
 
             <!-- <img src="/img/Baixos/Sire Marcus Miller V3 2nd-amarelo.png" alt="">
             <img src="/img/Baixos/Sire Marcus Miller V5-creme.png" alt="">

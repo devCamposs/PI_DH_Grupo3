@@ -1,9 +1,10 @@
 // var createError = require('http-errors');
 const express = require('express')
-const app = express()
+const app = express()//??
 const fs = require('fs');
 const path = require('path')
 
+const router = express.Router()
 const routerIndex = require('./routes/index')
 const routerSobrenos = require('./routes/sobrenos')
 const routerCarrinho = require('./routes/carrinho')
