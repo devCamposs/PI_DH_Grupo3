@@ -17,6 +17,7 @@ const produtosControllers = {
             res.render('produtos', { produtos: resultado })
 
         }
+        
 
     }
 }

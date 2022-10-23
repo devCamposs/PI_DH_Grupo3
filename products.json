@@ -81,17 +81,17 @@
       "cores": [
         {
           "id": 10,
-          "cor": "branco",
+          "cor": "white",
           "img": "/img/Guitarras/Sire Larry Carlton H7-branco.png"
         },
         {
           "id": 11,
-          "cor": "preto",
+          "cor": "black",
           "img": "/img/Guitarras/Sire Larry Carlton H7-preto.png"
         },
         {
           "id": 12,
-          "cor": "vermelho",
+          "cor": "#9C2152",
           "img": "/img/Guitarras/Sire Larry Carlton H7-vermelho.png"
         }
       ]
@@ -105,13 +105,13 @@
       "cores": [
         {
           "id": 13,
-          "cor": "amarela",
+          "cor": "#E2BE1B",
           "img": "/img/Guitarras/Sire Larry Carlton L7-amarela.png"
         
         },
         {
           "id": 14,
-          "cor": "azul",
+          "cor": "#3F738F ",
           "img": "/img/Guitarras/Sire Larry Carlton L7-azul.png"
         },
         {
@@ -130,12 +130,12 @@
       "cores": [
         {
           "id": 16,
-          "cor": "sunburst",
+          "cor": "brown",
           "img": "/img/Guitarras/Sire Larry Carlton S7 Vintage-sunburst.png"
         },
         {
           "id": 17,
-          "cor": "amarelo",
+          "cor": "yellow",
           "img": "/img/Guitarras/Sire Larry Carlton L7-azul.png"
         },
         {

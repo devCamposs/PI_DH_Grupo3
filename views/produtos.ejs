@@ -14,12 +14,15 @@
             <h2><%= prod.modelo %></h2>
             <h4><%= prod.descricao %> </h4>
             <h4><%= prod.preco %></h4> 
-            <img id="imgInstr" src="<%= prod.cores[0].img %>">
+            <img id="imgInstr<%= prod.name %>" src="<%= prod.cores[0].img %>">
 
+
+            
             <% prod.cores.forEach(function(m) { %>
             
-              <input type="button" id="btnColor" class="btnColors" style='background-color: <%= m.cor %>' onmouseover='modifyImg("<%= m.img %>")'>
-             
+              <!-- <input type="button" id="btnColor" class="btnColors" style='background-color: <%= m.cor %>' onmouseover='modifyImg("<%= m.img %>")'> -->
+              <input type="button" id="btnColor" class="btnColors" style='background-color: <%= m.cor %>' onmouseover='modifyImg("<%= prod.img%>","<%= prod.name%>")'>
+
               <% }) %> 
               </div>
               <% }) %>

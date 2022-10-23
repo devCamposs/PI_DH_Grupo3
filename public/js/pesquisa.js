@@ -23,7 +23,8 @@ function on() {
     }
   } 
 
-  function modifyImg(img){
-    let imgInstr = document.getElementById("imgInstr");
+  function modifyImg(img, nome){
+    let imgInstr = document.getElementById("imgInstr" + nome);
     imgInstr.src = img
+  
 }
