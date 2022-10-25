@@ -1,19 +1,21 @@
-// var createError = require('http-errors');
-const express = require('express')
-const app = express()//??
+// ************ Require's ************
+
+const createError = require('http-errors');
+const express = require('express');
+const app = express();
 const fs = require('fs');
 const path = require('path')
 const session = require('express-session');
+const methodOverride =  require('method-override');
 
 
 const router = express.Router()
 const routerIndex = require('./routes/index')
 const routerSobrenos = require('./routes/sobrenos')
 const routerCarrinho = require('./routes/carrinho')
-const routerCadastro = require('./routes/cadastro')
+
 const routerAreadocliente = require('./routes/areadocliente')
 const routerProdutos = require('./routes/produtos')
-
 
 
 app.use(express.urlencoded({extended: false}))
@@ -27,8 +29,7 @@ app.set('view engine', 'ejs')
 app.use('/', routerIndex)
 app.use('/sobrenos', routerSobrenos)
 app.use('/carrinho', routerCarrinho )
-app.use('/cadastro', routerCadastro)
-app.use('/areadoclientelogin', routerAreadocliente)
+app.use('/areadocliente', routerAreadocliente)
 //app.use('/areadoclientelogin/criar', routerAreadocliente)
 app.use('/produtos', routerProdutos)
 

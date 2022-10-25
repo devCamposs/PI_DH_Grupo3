@@ -4,11 +4,14 @@ const router = express.Router()
 
 const areadoclienteControllers = require('../controllers/areadoclienteControllers')
 router.get('/', areadoclienteControllers.index)
+router.get('/cadastro', areadoclienteControllers.viewForm)
 
-router.get('/criar', areadoclienteControllers.viewForm)
 router.post('/criar', areadoclienteControllers.salvarForm)
 
-//router.get('/criar', areadoclienteControllers.criar)
+// router.get('/criar', areadoclienteControllers.criar)
 
 
-module.exports = router
+module.exports = router;
+
+
+
